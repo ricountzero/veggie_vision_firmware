@@ -10,6 +10,7 @@ defmodule VeggieVision do
 
   @i2c_address  0x2
   @protocl_name "i2c-1"
+  @measurement_interval 900_000  # 15 minutes in milliseconds
 
   @doc """
   Starts the supervisor and its child task.
@@ -45,7 +46,7 @@ defmodule VeggieVision do
   @doc """
   Continuously reads data from the I2C bus with a delay.
   """
-  def measure(i2c_bus, delay \\ 1000) do
+  def measure(i2c_bus, delay \\ @measurement_interval) do
     case Circuits.I2C.read(i2c_bus, @i2c_address, 2) do
       {:ok, <<_, data>>} ->
         IO.inspect(data)
