@@ -14,6 +14,11 @@ VeggieVision is an embedded Elixir application built with the [Nerves](https://n
 - **I2C Address**: 0x2
 - **I2C Bus**: i2c-1
 
+### Raspberry Pi Zero 2 W Pinout
+
+![Raspberry Pi Zero 2 W Pinout](images/raspberry_pi_zero_2_w_pinout.png)
+
+
 ## Software Stack
 
 - **Framework**: [Nerves Project](https://nerves-project.org/)
