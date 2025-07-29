@@ -1,10 +1,10 @@
 # VeggieVision Firmware
 
-A Nerves-based firmware project for monitoring soil moisture using a Raspberry Pi Zero 2W and LM393 Soil Hygrometer Moisture Sensor.
+A [Nerves](https://nerves-project.org/)-based firmware project for monitoring soil moisture using a Raspberry Pi Zero 2W and LM393 Soil Hygrometer Moisture Sensor.
 
 ## Overview
 
-VeggieVision is an embedded Elixir application built with the Nerves framework that continuously monitors soil moisture levels using an LM393 Soil Hygrometer Moisture Sensor. The project runs on a Raspberry Pi Zero 2W and communicates with the sensor via I2C protocol.
+VeggieVision is an embedded Elixir application built with the [Nerves](https://nerves-project.org/) framework that continuously monitors soil moisture levels using an LM393 Soil Hygrometer Moisture Sensor. The project runs on a Raspberry Pi Zero 2W and communicates with the sensor via I2C protocol.
 
 ## Hardware Components
 
@@ -16,7 +16,7 @@ VeggieVision is an embedded Elixir application built with the Nerves framework t
 
 ## Software Stack
 
-- **Framework**: Nerves Project
+- **Framework**: [Nerves Project](https://nerves-project.org/)
 - **Language**: Elixir
 - **I2C Library**: Circuits.I2C
 - **Architecture**: Supervisor pattern for process management
@@ -55,4 +55,4 @@ The LM393 Soil Hygrometer Moisture Sensor provides analog output that is read th
 
 ## Development
 
-This project is designed for embedded applications using the Nerves framework, providing a robust and reliable solution for soil moisture monitoring in IoT applications.
+This project is designed for embedded applications using the [Nerves](https://nerves-project.org/) framework, providing a robust and reliable solution for soil moisture monitoring in IoT applications.
