@@ -61,7 +61,7 @@ The main module `VeggieVision` implements:
 The firmware is configured to send humidity data to an HTTP server. Update the `@server_url` variable in `veggie_vision.ex`:
 
 ```elixir
-@server_url "http://<IP_ADDRESS>:4000/store"
+@server_url "http://<IP_ADDRESS>:4001/store"
 ```
 
 Replace `<IP_ADDRESS>` with your server's IP address or domain name.
