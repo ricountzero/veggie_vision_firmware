@@ -11,7 +11,7 @@ defmodule VeggieVision do
   @i2c_address  0x2
   @protocl_name "i2c-1"
   @measurement_interval 900_000  # 15 minutes in milliseconds
-  @server_url "http://<IP_ADDRESS>:4000/store"
+  @server_url "http://<IP_ADDRESS>:4001/store"
 
   @doc """
   Starts the supervisor and its child task.
